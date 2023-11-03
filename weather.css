@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+:root {
+    --core-pink: #C340A1;
+    --core-periwinkle: #6A6DCD;
+    --core-red: #D93535;
+    --core-blue: #307FE2;
+    --core-mint: #00A88B;
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background: linear-gradient(118deg, #1560D4 2.08%, rgba(180, 41, 166, 0.56) 101.39%);
+}
+
+.card {
+    width: 944px;
+    height: 623px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #222831;
+}
+
+.rectangle {
+    width: 493px;
+    height: 666px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: url("Rectangle 2"), lightgray 50% / cover no-repeat, linear-gradient(152deg, rgba(136, 235, 239, 0.90) -0.04%, rgba(83, 91, 230, 0.90) 100%);
+}
