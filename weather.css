@@ -19,22 +19,33 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;
+    /* padding-top: 209px;
+    padding-right: 227px;
+    padding-bottom: 192px;
+    padding-left: 269px; */
     background: linear-gradient(118deg, #1560D4 2.08%, rgba(180, 41, 166, 0.56) 101.39%);
 }
 
-.card {
+.card-behind {
     width: 944px;
     height: 623px;
-    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
     border-radius: 25px;
-    background: #222831;
+    background: #21252a;
 }
 
-.rectangle {
+.card-left {
+    align-items: center;
+    justify-content: center;
     width: 493px;
     height: 666px;
     flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
     border-radius: 30px;
-    background: url("Rectangle 2"), lightgray 50% / cover no-repeat, linear-gradient(152deg, rgba(136, 235, 239, 0.90) -0.04%, rgba(83, 91, 230, 0.90) 100%);
+    position: relative;
+    bottom: 22px;
+    background-image: linear-gradient(152deg, rgba(170, 234, 236, 0.9) -0.04%, rgba(83, 91, 230, 0.90) 100%), url(more.png);
 }
+
