@@ -29,7 +29,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    border-radius: 25px;
+    border-radius: 30px;
     background: #21252a;
 }
 
@@ -47,12 +47,12 @@ body {
     align-items: flex-start;
     flex-direction: column;
     border-radius: 30px;
-    margin-top: 55px;
 }
 
 .prop {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .days {
